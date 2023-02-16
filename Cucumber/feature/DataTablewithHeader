@@ -1,0 +1,7 @@
+Feature: This is login feature 
+Scenario: Login scenario
+Given Go to URL of HRM
+When enter the below credentials
+|Username|Password|
+|Admin   |admin123|
+And click login button
